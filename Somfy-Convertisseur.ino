@@ -18,8 +18,8 @@ void setup() {
   Serial.println("actm : 1 - Monter  ");
   Serial.println("actd : 2 - Descendre  ");
   Serial.println("acts : 3 - My (stop)  ");
-  Serial.println("actp : 4 - Programmer (RC=0)  "); 
-  Serial.println("actq : 5 - Deprogrammer  ");
+  Serial.println("actp : 4 - Programmer  "); 
+  Serial.println("actq : 5 - Deprogrammer (RC=0) ");
 }
 
 void loop() {
