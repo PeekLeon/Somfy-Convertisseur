@@ -29,12 +29,14 @@ void loop() {
     Serial.println( mySwitch.getReceivedValue() );
     
     String entreeRF = String( mySwitch.getReceivedValue() ); // Code RF
+    if(entreeRF.substring(0,3) == "200"){
+    
     String act = entreeRF.substring(4,5); // Prend le 5eme caractére du code RF
     String telecommande = entreeRF.substring(3,4); // Prend le 4eme caractére du code RF
 
     cfgTel(telecommande.toInt());
     action(act.toInt());
-    
+    }
     mySwitch.resetAvailable();
   }
 } 
