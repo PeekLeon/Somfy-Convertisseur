@@ -50,10 +50,11 @@ Programmer la télécommande 8 : ```20084```
 
 ## MySomfy
 
+[https://github.com/PeekLeon/Somfy-Library](https://github.com/PeekLeon/Somfy-Library)
 
 ## RCSwitch
 
-https://github.com/sui77/rc-switch
+[https://github.com/sui77/rc-switch](https://github.com/sui77/rc-switch)
 
 ## EEPROM
 
